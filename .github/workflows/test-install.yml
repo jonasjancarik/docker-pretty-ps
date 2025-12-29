@@ -29,10 +29,9 @@ jobs:
 
     - name: Install with uv
       uses: astral-sh/setup-uv@v4
-      with:
-        enable-cache: true
 
     - name: Test uv tool install
       run: |
         uv tool install .
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
         docker-pretty-ps --version

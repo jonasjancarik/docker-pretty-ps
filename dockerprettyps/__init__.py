@@ -37,7 +37,7 @@ import subprocess
 from dockerprettyps import errors
 
 __version__ = "1.0.2"
-__title__ = """
+__title__ = r"""
      _         _                                _   _
   __| |___  __| |_____ _ _   ___   _ __ _ _ ___| |_| |_ _  _   ___   _ __ ___
  / _` / _ \/ _| / / -_) '_| |___| | '_ \ '_/ -_)  _|  _| || | |___| | '_ (_-<
