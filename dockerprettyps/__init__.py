@@ -276,7 +276,7 @@ def _parse_ps_date(val):
         cleaned = cleaned[:cleaned.find('(healthy')].strip()
 
     elif '(health' in cleaned:
-        cleaned = cleaned[:cleaned.find(')') + 1].strip()
+        cleaned = cleaned[:cleaned.find('(health')].strip()
 
     elif '(unhealthy' in cleaned:
         cleaned = cleaned[:cleaned.find('(')].strip()
